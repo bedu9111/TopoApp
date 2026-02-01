@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Arial, sans-serif;
+}
+
+/* Body */
+
+body {
+    background-color: #F9F6EE;
+}
+
+/* Main Container */
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Heading */
+
+.heading {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* Main Box */
+
+main {
+    width: 90%;
+    max-width: 900px;
+    height: auto;
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+
+    box-shadow: rgba(0,0,0,0.2) 0px 4px 12px;
+}
+
+/* Input Area */
+
+.nav-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 1rem;
+}
+
+.nav-box input {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.nav-box button {
+    width: 120px;
+    background: #00A300;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Task List */
+
+.ul-box {
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 5px;
+}
+
+/* Single Task */
+
+.ul-box li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px;
+    margin: 8px 0;
+
+    border-radius: 8px;
+    box-shadow: rgba(0,0,0,0.1) 0px 0px 4px;
+}
+
+/* Left Part */
+
+.list {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Delete Button */
+
+.ul-box li button {
+    background: red;
+    color: white;
+    border: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Footer */
+
+.footer-box {
+    margin-top: 1rem;
+    padding: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-top: 1px solid #ddd;
+}
+
+.footer-box button {
+    background: #cfcfcf;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Responsive */
+
+@media (max-width: 600px) {
+
+    .nav-box {
+        flex-direction: column;
+    }
+
+    .nav-box button {
+        width: 100%;
+    }
+
+    .footer-box {
+        flex-direction: column;
+        gap: 8px;
+    }
+}

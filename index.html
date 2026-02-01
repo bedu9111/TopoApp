@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="heading">
+        <h1>My Todo List</h1>
+        <p>Plan Your Day</p>
+    </div>
+
+    <main>
+
+        <!-- Input Area -->
+        <div class="nav-box">
+            <input type="text" placeholder="Enter Your Task...">
+            <button>+ Add</button>
+        </div>
+
+        <!-- Task List -->
+        <ul class="ul-box">
+
+            <li>
+                <div class="list">
+                    <input class="check" type="checkbox">
+                    <label>Learn JavaScript</label>
+                </div>
+                <button>X</button>
+            </li>
+
+        </ul>
+
+        <!-- Footer -->
+        <div class="footer-box">
+            <div>1 tasks left</div>
+            <button>Clear Completed</button>
+        </div>
+
+    </main>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
