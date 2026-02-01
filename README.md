@@ -29,3 +29,6 @@ No external libraries or frameworks are used.
 
 ## 📂 Project Structure
 
+![Todo App Screenshot](/TodoList/Screenshot%202026-02-01%20at%202.50.39 PM.png)
+
+
